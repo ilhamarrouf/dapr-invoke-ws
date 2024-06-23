@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "start": "node server.js",
+    "buildclient": "cd client && npm install && npm run build",
+    "buildandstart": "npm run buildclient && npm install && npm run start"
+  }
+}
